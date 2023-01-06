@@ -51,6 +51,7 @@
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Department Details";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblTitle.Click += new System.EventHandler(this.lblTitle_Click);
             // 
             // label1
             // 
