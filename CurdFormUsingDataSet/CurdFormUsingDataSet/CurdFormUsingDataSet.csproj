@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CurdApplicationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurdApplicationForm.Designer.cs">
+      <DependentUpon>CurdApplicationForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataSetConstructor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +61,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CurdApplicationForm.resx">
+      <DependentUpon>CurdApplicationForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DataSetConstructor.resx">
       <DependentUpon>DataSetConstructor.cs</DependentUpon>
     </EmbeddedResource>

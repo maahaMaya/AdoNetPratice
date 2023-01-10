@@ -16,7 +16,7 @@ namespace CurdFormUsingDataSet
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DataSetConstructor());
+            Application.Run(new CurdApplicationForm());
         }
     }
 }
