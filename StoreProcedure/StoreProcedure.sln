@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreProcedure", "StoreProcedure\StoreProcedure.csproj", "{EEEDC80D-E58C-42B1-9434-B8B7AA6A1EAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEEDC80D-E58C-42B1-9434-B8B7AA6A1EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEEDC80D-E58C-42B1-9434-B8B7AA6A1EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEEDC80D-E58C-42B1-9434-B8B7AA6A1EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEEDC80D-E58C-42B1-9434-B8B7AA6A1EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {491548B3-EDE9-43A1-8473-4CD65ADD5C05}
+	EndGlobalSection
+EndGlobal
